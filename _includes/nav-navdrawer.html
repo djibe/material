@@ -44,7 +44,7 @@
 
         {% endif %}
 
-        <a class="nav-item nav-link {{ class_collapsed }}" data-toggle="collapse" href="#{{ site.id.navdrawer }}-{{ group_slug | replace: ' ', '-' }}"><strong>{{ group.title }}</strong></a>
+        <a class="nav-item nav-link waves-effect {{ class_collapsed }}" data-toggle="collapse" href="#{{ site.id.navdrawer }}-{{ group_slug | replace: ' ', '-' }}"><strong>{{ group.title }}</strong></a>
         <div class="collapse pb-2 {{ class_show }}" id="{{ site.id.navdrawer }}-{{ group_slug | replace: ' ', '-' }}">
 
           {% for doc in group.pages %}

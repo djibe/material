@@ -1,4 +1,3 @@
-
 <!-- JavaScript -->
 <script crossorigin="anonymous" integrity="{{ site.cdn.jquery_hash }}" src="{{ site.cdn.jquery }}"></script>
 <script crossorigin="anonymous" integrity="{{ site.cdn.popper_hash }}" src="{{ site.cdn.popper }}"></script>
@@ -9,4 +8,11 @@
 
 <!-- Additional JavaScript for documentation site -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/docsearch.js/2.6.3/docsearch.min.js"></script>
+<script src="{{ site.baseurl }}/js/waves.min.js"></script>
 <script src="{{ site.baseurl }}/docs/js/docs.min.js"></script>
+
+<!-- JS Initialization Added Here Due To Reasons, Attach is in List for multi attachment -->
+<script type="text/javascript">
+    Waves.init();
+    Waves.attach('.waves-effect', '.waves-float');
+</script>

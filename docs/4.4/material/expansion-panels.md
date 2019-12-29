@@ -172,27 +172,27 @@ Expansion panels are best used for lightweight editing of an element. A collapse
           <div class="col-12 col-sm-10">
             <div class="chip fade mt-1 show" id="chipDismissible1">
               Value #1
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible1" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible1" type="button"></button>
             </div>
             <div class="chip chip-info fade mt-1 show" id="chipDismissible2">
               Value #2
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible2" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible2" type="button"></button>
             </div>
             <div class="chip fade mt-1 show" id="chipDismissible3">
               Value #3
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible3" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible3" type="button"></button>
             </div>
             <div class="chip fade mt-1 show" id="chipDismissible4">
               Value #4
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible4" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible4" type="button"></button>
             </div>
             <div class="chip fade mt-1 show" id="chipDismissible5">
               Value #5
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible5" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible5" type="button"></button>
             </div>
             <div class="chip fade mt-1 show" id="chipDismissible6">
               Value #6
-              <button class="close" data-dismiss="alert" data-target="#chipDismissible6" type="button"><i class="material-icons">cancel</i></button>
+              <button class="close" data-dismiss="alert" data-target="#chipDismissible6" type="button"></button>
             </div>
           </div>
         </div>
