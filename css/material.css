@@ -4261,6 +4261,32 @@ a.btn:not([class*='btn-flat']):not([class*='btn-outline']):enabled:hover {
   padding: 0 0.5rem;
 }
 
+.card-actions .btn {
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.card-actions .btn:not(.btn-icon) {
+  margin-top: 0;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.card-actions.flex-column .btn {
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.card-actions.flex-column .btn:not(.btn-icon) {
+  margin-top: unset;
+  margin-right: unset;
+  margin-bottom: 0.5rem;
+  margin-left: unset;
+}
+
 .card-actions:not(.flex-column) {
   -ms-flex-align: center;
   align-items: center;

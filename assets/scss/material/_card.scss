@@ -1,3 +1,17 @@
+@mixin btn-card-placement($mrg-top, $mrg-right, $mrg-bottom, $mrg-left) {
+  .btn {
+    flex: 0 1 auto;
+    min-width: 0;
+
+    &:not(.btn-icon) {
+      margin-top: $mrg-top;
+      margin-right: $mrg-right;
+      margin-bottom: $mrg-bottom;
+      margin-left: $mrg-left;
+    }
+  }
+}
+
 .card {
   background-clip: border-box;
   background-color: $card-bg;
@@ -106,11 +120,16 @@
 }
 
 // Action
-
 .card-actions {
+  @include btn-card-placement(0, $card-action-inner-spacer-x, 0, 0);
+
   display: flex;
   min-height: 3.25rem; // 52px
   padding: 0 $spacer-sm;
+
+  &.flex-column {
+    @include btn-card-placement(unset, unset, 0.5rem, unset);
+  }
 
   &:not(.flex-column) {
     align-items: center;
