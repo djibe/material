@@ -102,6 +102,15 @@ Material's documentation, included in this repo in the root directory, is built 
 
 1. Run through the [tooling setup](http://djibe.github.io/material/docs/4.4/getting-started/tooling/#getting-started) to install Jekyll and other Ruby dependencies with `bundle install`.
 2. Run `npm install` to install Node.js dependencies.
+3. Before attempting to run the steps below, please run the following command from the repository directory:
+```
+git config core.autocrlf false
+git rm --cached -r .
+git reset --hard
+```
+* If you have done any uncommitted changes, they will be automatically replaced by the current state of the repository. So save those changes before you do this part.
+* This command will help you at ease resolving issues when running Step 4 with error output of `Expected linebreaks to be 'LF' but found CRLF`.
+
 3. Run `npm run dist` and `npm run docs` to rebuild distributed CSS and JavaScript files, as well as docs assets.
 4. From the root `/material` directory, run `npm run docs-serve` in the command line.
 5. Open `http://localhost:9999/material` in your browser, and voilà.
