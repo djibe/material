@@ -3,17 +3,17 @@ layout: base
 ---
 
 <header class="navbar navbar-dark fixed-top toolbar-waterfall">
-  <button aria-controls="{{ site.id.navdrawer }}" aria-expanded="false" aria-label="Toggle Navdrawer" class="navbar-toggler mr-3" data-target="#{{ site.id.navdrawer }}" data-toggle="navdrawer">
+  <button aria-controls="{{ site.id.navdrawer }}" aria-expanded="false" aria-label="Toggle Navdrawer" class="navbar-toggler mr-3 waves-effect" data-target="#{{ site.id.navdrawer }}" data-toggle="navdrawer">
     <span class="navbar-toggler-icon"></span>
   </button>
   <a aria-label="Daemonite Material" class="mr-auto doc-logo" href="{{ site.baseurl }}/">M</a>
   <div class="ml-3">
     <div class="dropdown">
-      <button aria-expanded="false" aria-haspopup="true" class="navbar-toggler" data-toggle="dropdown" id="doc-dropdown-versions" type="button"><i class="material-icons mx-auto">history</i></button>
+      <button aria-expanded="false" aria-haspopup="true" class="navbar-toggler waves-effect" data-toggle="dropdown" id="doc-dropdown-versions" type="button"><i class="material-icons mx-auto">history</i></button>
       <div aria-labelledby="doc-dropdown-versions" class="dropdown-menu dropdown-menu-right">
         <span class="dropdown-header">Versions</span>
-        <a class="dropdown-item active" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/">Latest (v4.4.X)</a>
-        <a class="dropdown-item" href="http://daemonite.github.io/material/docs/4.0/">v4.0.0</a>
+        <a class="dropdown-item active waves-effect" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/">Latest (v4.4.X)</a>
+        <a class="dropdown-item waves-effect" href="http://daemonite.github.io/material/docs/4.0/">v4.0.0</a>
       </div>
     </div>
   </div>
