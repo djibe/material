@@ -3,6 +3,7 @@ layout: docs
 title: Data tables
 description: Data tables display sets of data across rows and columns.
 group: material
+toc: true
 ---
 
 <div class="list-group mt-lg-5">

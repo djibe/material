@@ -3,6 +3,7 @@ layout: docs
 title: Cards
 description: Cards contain content and actions about a single subject.
 group: material
+toc: true
 ---
 
 Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length.

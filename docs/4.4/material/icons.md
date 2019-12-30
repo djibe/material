@@ -3,6 +3,7 @@ layout: docs
 title: Icons
 description: Material takes advantage of the over 900 icons offered by the official icon set from Google.
 group: material
+toc: true
 ---
 
 ## Quick start
