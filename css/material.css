@@ -9352,6 +9352,7 @@ input:disabled + .chip {
 
 .stepper-icon .material-icons {
   font-size: 1.333em;
+  vertical-align: baseline;
 }
 
 .stepper-text {
