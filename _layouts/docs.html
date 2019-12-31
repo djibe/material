@@ -27,7 +27,7 @@ layout: compress
 
         {% if page.toc %}
           <div class="col-xl-3 d-none d-xl-block">
-            {% include toc.html html=content sanitize=true class="section-nav" h_min=2 h_max=4 item_class="toc-entry toc-h" %}
+            {{ content | toc_only }}
           </div>
         {% endif %}
       </div>
