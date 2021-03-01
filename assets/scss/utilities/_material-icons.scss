@@ -19,19 +19,19 @@
 }
 
 .material-icons-outlined {
-  font-family: 'Material Icons Outlined', var(--font-family-material-icons); //stylelint-disable-line font-family-no-missing-generic-family-keyword
+  font-family: 'Material Icons Outlined', #{inspect($material-icon-font-family)}; //stylelint-disable-line font-family-no-missing-generic-family-keyword
 }
 
 .material-icons-round {
-  font-family: 'Material Icons Round', var(--font-family-material-icons); //stylelint-disable-line font-family-no-missing-generic-family-keyword
+  font-family: 'Material Icons Round', #{inspect($material-icon-font-family)}; //stylelint-disable-line font-family-no-missing-generic-family-keyword
 }
 
 .material-icons-two-tone {
-  font-family: 'Material Icons Two Tone', var(--font-family-material-icons); //stylelint-disable-line font-family-no-missing-generic-family-keyword
+  font-family: 'Material Icons Two Tone', #{inspect($material-icon-font-family)}; //stylelint-disable-line font-family-no-missing-generic-family-keyword
 }
 
 .material-icons-sharp {
-  font-family: 'Material Icons Sharp', var(--font-family-material-icons); //stylelint-disable-line font-family-no-missing-generic-family-keyword
+  font-family: 'Material Icons Sharp', #{inspect($material-icon-font-family)}; //stylelint-disable-line font-family-no-missing-generic-family-keyword
 }
 
 .material-icons-inline {
