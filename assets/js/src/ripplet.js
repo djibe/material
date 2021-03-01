@@ -23,7 +23,7 @@ const Ripplet = (() => {
     if (event.button !== 0) {
       return
     }
-    const currentTarget = event.target.closest('.btn, .card-link, .card-primary-action, .list-group-item-action, [data-ripplet]')
+    const currentTarget = $(event.target).closest('.btn, .card-link, .card-primary-action, .list-group-item-action, [data-ripplet]').get(0)
     if (!currentTarget || currentTarget.disabled) {
       return
     }
