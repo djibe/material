@@ -11469,12 +11469,8 @@ select.is-invalid.form-control:hover[multiple], select.is-invalid.form-control:h
   opacity: 1;
 }
 
-.navbar-brand:not(:first-child) {
+.navbar-brand:not(:first-child):not(:last-child)
   margin-left: 1rem;
-}
-
-.navbar-brand:not(:last-child) {
-  margin-right: 1rem;
 }
 
 .navbar-text {
