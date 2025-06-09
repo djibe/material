@@ -1,5 +1,6 @@
 .sass-cache/
 .jekyll-cache/
+.vscode/
 gh-pages/
 node_modules/
 *.code-workspace
